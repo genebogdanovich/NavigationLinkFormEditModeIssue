@@ -43,7 +43,7 @@ struct ContentView: View {
             }
             .navigationTitle("Details")
             .navigationBarTitleDisplayMode(.inline)
-            .environment(\.editMode, .constant(.active))
+            .environment(\.editMode, .constant(.active)) // This blocks all buttons and navigation links.
         }
     }
 }
